@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.game{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.container{
+    display: grid;
+    gap: 5px;
+}
+aside{
+    position: absolute;
+    left: 30%;
+}
+aside h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.colorContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    gap: 10px;
+}
+.color{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
